@@ -5,7 +5,13 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "identity-server", "identity-server\identity-server.csproj", "{4939E286-8731-47A1-B8C6-4ECFEFDE3D76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvc-client", "mvc-client\mvc-client.csproj", "{EA99FA9B-8628-46B9-AD8E-A15B21792F16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mvc-client", "mvc-client\mvc-client.csproj", "{EA99FA9B-8628-46B9-AD8E-A15B21792F16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1B54ECC6-127D-4A57-93A1-B96CCDBC5447}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
